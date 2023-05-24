@@ -55,24 +55,26 @@ of the start state of the game would be:
 ........W.W.W.W..w.w.w.w................b.b.b.b..B.B.B.B........
 
 More precisely, your program will be called with four command line parameters: (1) the value of n, (2) the
-current player (w or b), (3) the state of the board, encoded as above, and (4) a time limit in seconds. Your
-program should then decide a recommended single move for the given player with the given current board
-state, and display the new state of the board after making that move. Displaying multiple lines of output
-is fine as long as the last line has the recommended board state. The time limit is the amount of time that
-your program should expect to have to make its decision; our testing code will kill your program at that
-point, and will use whichever was the last move your program recommended. For example, a sample run of
-your program might look like:
+current player (w or b), (3) the state of the board, encoded as above, and (4) a time limit in seconds. 
 
 python3 ./raichu.py 8 w '........W.W.W.W..w.w.w.w................b.b.b.b..B.B.B.B........' 10
 
 Searching for best move for w from board state:
 ........
+
 W.W.W.W.
+
 .w.w.w.w
+
 ........
+
 ........
+
 b.b.b.b.
+
 .B.B.B.B
+
 ........
+
 Here's what I decided:
 ..........W.W.W..w.w.w.wW...............b.b.b.b..B.B.B.B........
