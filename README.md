@@ -59,22 +59,5 @@ current player (w or b), (3) the state of the board, encoded as above, and (4) a
 
 python3 ./raichu.py 8 w '........W.W.W.W..w.w.w.w................b.b.b.b..B.B.B.B........' 10
 
-Searching for best move for w from board state:
-........
+![image](https://github.com/mayuribirari/Raichu-Game/assets/49620045/2d13714e-c1a9-46bf-abd6-ce3433c583e0)
 
-W.W.W.W.
-
-.w.w.w.w
-
-........
-
-........
-
-b.b.b.b.
-
-.B.B.B.B
-
-........
-
-Here's what I decided:
-..........W.W.W..w.w.w.wW...............b.b.b.b..B.B.B.B........
